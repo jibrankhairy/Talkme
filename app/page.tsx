@@ -4,7 +4,7 @@ import logo from "@/images/landingPage/logo1.png";
 
 export default function Home() {
   return (
-    <main className="relative isolate dark:bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white">
+    <main className="relative isolate dark:bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white min-h-screen overflow-hidden">
       <div
         className="absolute inset-x-0 top-28 -z-10 transform-gpu overflow-hidden blur-3xl"
         aria-hidden="true"
