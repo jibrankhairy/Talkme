@@ -2,9 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "@/images/landingPage/logo1.png";
 
-export default function Home() {
+export default async function Home() {
   return (
     <main className="relative isolate dark:bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white min-h-screen overflow-hidden">
+      {/* <style jsx global>{`
+        html,
+        body {
+          overflow: hidden;
+          height: 100%;
+        }
+      `}</style> */}
       <div
         className="absolute inset-x-0 top-28 -z-10 transform-gpu overflow-hidden blur-3xl"
         aria-hidden="true"
